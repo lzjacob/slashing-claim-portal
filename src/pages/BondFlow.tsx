@@ -120,6 +120,8 @@ export function BondFlow() {
       await sendTransaction({
         to: BOND_CONTRACT_ADDRESS,
         value: parseEther(BOND_AMOUNT),
+        gas: 100000n, // 100k gas limit - more than enough for simple ETH transfer
+        gasPrice: undefined, // Let the network determine gas price
       })
     } catch (err) {
       console.error('Transaction failed:', err)
