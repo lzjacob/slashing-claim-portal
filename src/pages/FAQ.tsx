@@ -13,8 +13,8 @@ const faqData: FAQItem[] = [
     answer: "A slashing claim is a formal accusation that a validator has violated network rules or behaved maliciously. These claims are used to protect the network by allowing community members to report and potentially penalize bad actors."
   },
   {
-    question: "Why do I need to bond 0.1 ETH?",
-    answer: "The 0.1 ETH bond (testing amount) ensures that claim submissions are serious and prevents spam. This bond demonstrates your commitment to the validity of your claim and helps filter out frivolous accusations."
+    question: "Why do I need to bond 0.001 ETH?",
+    answer: "The 0.001 ETH bond (testing amount) ensures that claim submissions are serious and prevents spam. This bond demonstrates your commitment to the validity of your claim and helps filter out frivolous accusations."
   },
   {
     question: "What happens to my bond?",
@@ -153,7 +153,7 @@ export function FAQ() {
           </h3>
           <ul className="text-sm text-gray-600 space-y-2">
             <li>• Claims must be submitted within 14 days</li>
-            <li>• Bond amount is exactly 0.1 ETH (testing)</li>
+            <li>• Bond amount is exactly 0.001 ETH (testing)</li>
             <li>• All claims are publicly visible</li>
             <li>• False claims may result in bond forfeiture</li>
           </ul>

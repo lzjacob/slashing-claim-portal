@@ -222,7 +222,7 @@ export function ClaimForm() {
               <p className="font-medium mb-1">Important:</p>
               <ul className="list-disc list-inside space-y-1">
                 <li>The destination transaction must have occurred within the last 14 days</li>
-                <li>You will be required to bond 0.1 ETH to proceed with this claim</li>
+                <li>You will be required to bond 0.001 ETH to proceed with this claim</li>
                 <li>All claim details will be publicly visible</li>
               </ul>
             </div>

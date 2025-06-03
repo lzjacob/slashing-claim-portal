@@ -11,4 +11,4 @@ export const config = createConfig({
 // Your deployed ETH Receiver Contract on Arbitrum Sepolia
 export const BOND_CONTRACT_ADDRESS = '0x9fA6BfDA1c0Cc5940A7b2274521E90A0dC994cfB' as const
 
-export const BOND_AMOUNT = '0.1' // 0.1 ETH for testing 
+export const BOND_AMOUNT = '0.001' // 0.001 ETH for testing 
